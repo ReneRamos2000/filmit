@@ -1,0 +1,57 @@
+<template>
+  <div class="mx-5">
+    <v-card>
+      <v-form v-model="valid">
+      <v-container>
+        <v-row>
+          <v-col
+            cols="12"
+            md="12"
+          >
+            <v-text-field
+              label="Pelicula"
+              required
+            ></v-text-field>
+          </v-col>
+
+          <v-col
+            cols="12"
+            md="12"
+          >
+            <v-text-field
+              label="Estado"
+              required
+            ></v-text-field>
+          </v-col>
+
+          <v-col
+            cols="12"
+            md="12"
+          >
+            <v-text-field
+              label="Ciudad"
+              required
+            ></v-text-field>
+          </v-col>
+          <v-col
+            cols="12"
+            md="6"
+          >
+            <v-text-field
+              label="Cine"
+              required
+            ></v-text-field>
+          </v-col>
+          <v-spacer></v-spacer>
+          <v-col
+          cols="12"
+          md="6"
+          >
+            <v-btn>Send</v-btn>
+          </v-col>
+        </v-row>
+      </v-container>
+    </v-form>
+    </v-card>
+  </div>
+</template>
